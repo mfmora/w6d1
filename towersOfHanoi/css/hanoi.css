@@ -1,0 +1,51 @@
+.hanoi {
+  width: 420px;
+  height: 420px;
+}
+
+.hanoi ul {
+  float: left;
+  list-style: none;
+  /*border-style: solid;
+  border-width: 10px;
+  border-color: black;
+  margin: 5px;*/
+  border-spacing: 5px;
+  border-bottom-width:2px;
+  border-bottom-color:black;
+  border-bottom-style: solid;
+}
+
+.hanoi ul li {
+  height: 25px;
+  width: 100px;
+  margin-top: 5px;
+
+}
+
+.hanoi .empty {
+  background-color: transparent;
+}
+
+.hanoi .disk3 {
+  width: 100px;
+  background-color: gray;
+  border-radius: 5px;
+  margin-left: 0px;
+}
+
+
+.hanoi .disk2 {
+  width: 70px;
+  background-color: gray;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+
+.hanoi .disk1 {
+  width: 40px;
+  background-color: gray;
+  border-radius: 5px;
+  margin-left: 30px;
+}

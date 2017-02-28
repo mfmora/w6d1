@@ -1,0 +1,29 @@
+.ttt {
+  height: 420px;
+  width: 420px;
+}
+
+.ttt ul {
+  list-style: none;
+}
+
+.ttt ul li {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border-style: solid;
+}
+
+.ttt .hovered {
+  background-color: yellow;
+
+}
+
+.ttt .clicked {
+  background-color: white;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 75px;
+}
